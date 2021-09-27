@@ -10,10 +10,11 @@ variable "minio_server" {
 
 variable "minio_access_key" {
   description = "minio user"
-  default     = "minioadmin"
+  default     = "root"
 }
 
 variable "minio_secret_key" {
   description = "minio_secret_key"
-  default     = "minioadmin"
+  default     = "maks150750"
 }
+
